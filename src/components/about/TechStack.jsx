@@ -40,7 +40,7 @@ const TechStack = () => {
           <Card raised className="item">
             {" "}
             <DiAngularSimple
-              style={{ width: "100%", height: "auto", color: "black" }}
+              style={{ width: "100%", height: "auto", color: "red" }}
             />{" "}
           </Card>
           <Card raised className="item">
@@ -99,6 +99,7 @@ const TechStack = () => {
           </Card>
         </Card.Group>
       </div>
+
     </div>
   );
 };
